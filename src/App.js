@@ -267,11 +267,19 @@ function App() {
                   {CONFIG.NETWORK.SYMBOL}.
                 </s.TextTitle>
                 <s.SpacerXSmall />
+                
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
                   Excluding gas fees.
                 </s.TextDescription>
+                <s.SpacerXSmall />
+
+                <s.TextTitle
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  Mint one {CONFIG.SYMBOL} and get one MCard for free
+                </s.TextTitle>                
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
