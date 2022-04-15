@@ -10,7 +10,7 @@
   "SYMBOL": "Megg",
   "MAX_SUPPLY": 4000,
   "WEI_COST": 1000000000000000000,
-  "DISPLAY_COST": 0.001,
+  "DISPLAY_COST": 1,
   "GAS_LIMIT": 3000000,
   "MARKETPLACE": "Opensea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/nerdy-coder-clones",
