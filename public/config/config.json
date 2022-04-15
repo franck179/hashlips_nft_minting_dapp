@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0xf9f2d29cd235e69afa5f1884d00552744112db7b",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0xf9f2d29cd235e69afa5f1884d00552744112db7b",
+  "CONTRACT_ADDRESS": "0xe33Fa32f5e45700680470d1728c12B85e046FF21",
+  "SCAN_LINK": "https://polygonscan.com/token/0xe33fa32f5e45700680470d1728c12b85e046ff21",
   "NETWORK": {
-    "NAME": "Rinkeby",
-    "SYMBOL": "ETH",
-    "ID": 4
+    "NAME": "Polygon",
+    "SYMBOL": "MATIC",
+    "ID": 137
   },
-  "NFT_NAME": "Measter Egg",
+  "NFT_NAME": "Measter Egg for Chemists",
   "SYMBOL": "Megg",
-  "MAX_SUPPLY": 40,
-  "WEI_COST": 1000000000000000,
+  "MAX_SUPPLY": 4000,
+  "WEI_COST": 1000000000000000000,
   "DISPLAY_COST": 0.001,
   "GAS_LIMIT": 3000000,
   "MARKETPLACE": "Opensea",
-  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/random-megg",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/nerdy-coder-clones",
   "SHOW_BACKGROUND": true
 }
