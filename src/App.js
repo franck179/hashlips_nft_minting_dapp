@@ -203,15 +203,39 @@ function App() {
       >
         <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
         <s.SpacerSmall />
+
+
+
+
+
+        <s.Container jc={"right"} ai={"right"} style={{ width: "70%" }}>
+          <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)",
+            }}
+          >
+            Seen on <br />
+            <a href="https://nftcalendar.io/event/measter-egg-for-chemists/"><img src="/config/images/NFTcalBW.svg"/></a>
+          </s.TextDescription>
+          <s.SpacerSmall />
+          </s.Container>
+
+
+
         <ResponsiveWrapper flex={0.5} style={{ padding: 24 }} test>
-          <s.Container flex={1} jc={"center"} ai={"center"}>
+
+          
+          <s.Container flex={1} jc={"center"} ai={"center"}>      {/* Container pour image gauche */}
             <StyledImg alt={"example"} src={"/config/images/exampleMeggs.gif"} />
           </s.Container>
+
           <s.SpacerLarge />
-          <s.Container
-            flex={2}
-            jc={"center"}
-            ai={"center"}
+
+          
+
+          {/* Container pour centre */}
+          <s.Container flex={2} jc={"center"} ai={"center"}
             style={{
               backgroundColor: "var(--accent)",
               padding: 24,
@@ -219,7 +243,7 @@ function App() {
               border: "4px dashed var(--secondary)",
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
-          >
+          >                                                               
             <s.TextTitle
               style={{
                 textAlign: "center",
@@ -377,15 +401,19 @@ function App() {
             )}
             <s.SpacerMedium />
           </s.Container>
+
           <s.SpacerLarge />
-          <s.Container flex={1} jc={"center"} ai={"center"}>
+
+          <s.Container flex={1} jc={"center"} ai={"center"}>          {/* Container pour image droite */}
             <StyledImg
               alt={"example"}
               src={"/config/images/exampleMCards.gif"}
               // style={{ transform: "scaleX(-1)" }}
             />
           </s.Container>
+
         </ResponsiveWrapper>
+
         <s.SpacerMedium />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
           <s.TextDescription
